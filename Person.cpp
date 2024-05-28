@@ -29,3 +29,14 @@ Address Person::getAddress()
 {
 	return homeAddress;
 }
+
+void Person::PrintPersonInfo()
+{
+	// print the name, ssn, then the address
+
+	cout << getName() << endl;
+	cout << getSSN() << endl;
+	cout << getAddress().getCity() << endl;
+	cout << getAddress().getStreetName() << endl;
+	cout << getAddress().getZipCode() << endl;
+}

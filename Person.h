@@ -18,7 +18,7 @@ public:
 	void setAddress(Address a);
 	Address getAddress(); 
 
-
+	void PrintPersonInfo(); 
 
 
 };

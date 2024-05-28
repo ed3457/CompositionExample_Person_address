@@ -16,9 +16,9 @@ int main()
 
     p1.setAddress(a1);
 
-    cout << p1.getAddress().getCity() << endl; 
+    //cout << p1.getAddress().getCity() << endl; 
 
-
+    p1.PrintPersonInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
