@@ -2,10 +2,23 @@
 //
 
 #include <iostream>
+#include "Person.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Person p1;
+
+    p1.setName("James Bond");
+
+    p1.setSSN("007-00070070");
+
+    Address a1("Sky Fall", "London", "007007");
+
+    p1.setAddress(a1);
+
+    cout << p1.getAddress().getCity() << endl; 
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
