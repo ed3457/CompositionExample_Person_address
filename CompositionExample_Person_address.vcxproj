@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Address.cpp" />
     <ClCompile Include="CompositionExample_Person_address.cpp" />
+    <ClCompile Include="Person.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
